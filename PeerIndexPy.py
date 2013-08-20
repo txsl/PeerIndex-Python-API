@@ -5,7 +5,7 @@
 A Python interface for the PeerIndex API.
 
 To use this you need a PeerIndex API key which 
-    you can get at: http://dev.peerindex.com/
+    you can get at: http://developers.peerindex.com/
     
 This script is loosely based on the PyKlout script by 
     https://github.com/marcelcaraciolo
@@ -55,7 +55,7 @@ class PeerIndex(object):
     api_key : string the PeerIndex API Key.
 
     '''
-    API_URL = 'api.peerindex.net'
+    API_URL = 'api.peerindex.com'
 
     def __init__(self, api_key):
         self._api_key = api_key
